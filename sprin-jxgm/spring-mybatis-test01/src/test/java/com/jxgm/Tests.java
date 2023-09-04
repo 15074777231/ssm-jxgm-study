@@ -6,7 +6,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,13 +17,9 @@ import java.io.InputStream;
  */
 public class Tests {
     @Test
-    public void test01(){
-        InputStream resourceAsStream = null;
-        try {
-            resourceAsStream = Resources.getResourceAsStream("mybatis-config.xml");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+    public void test01() throws IOException {
+
+        InputStream resourceAsStream = Resources.getResourceAsStream("mybatis-config.xml");
         SqlSessionFactory build = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = build.openSession();
         StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);

@@ -4,30 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c3994c-b328-44c4-8897-bb20970025e1" name="更改" comment="更改">
-<<<<<<< HEAD
+    <list default="true" id="78f7b714-8ecd-4427-abc1-2e5202384fa8" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/spring-mybatis-test01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 99e1be7420e32c5f6af9bdbe7ff2bdcd6b6c937f
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jxgm-ioc01/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/main/java/com/jxgm/pojo/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/main/java/com/jxgm/pojo/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/test/java/com/jxgm/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/test/java/com/jxgm/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,47 +26,23 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Program Files\Maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../../Program Files/Maven/apache-maven-3.9.4" />
+        <option name="mavenHome" value="D:/programeSoft/Maven/apache-maven-3.8.5" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2Up445rrs2Y7QiONTS7soeUjoq2" />
+  <component name="ProjectId" id="2UuuzqmLbdEMYs6CbPNs9OLL9ul" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-jxgm-ioc/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "2641cffbec21157013c0904f8a98cb35",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  </component>
   <component name="RunManager">
     <configuration name="Tests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mybatis-test01" />
@@ -96,72 +60,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="sprin-jxgm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="sprin-jxgm" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tests.test01" />
       </list>
     </recent_temporary>
->>>>>>> 99e1be7420e32c5f6af9bdbe7ff2bdcd6b6c937f
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Users\10117\Desktop\ssm\代码\ssm-mybatis\ssm-jxgm-study\sprin-jxgm\spring-jxgm-ioc\src\main\resources" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="f0c3994c-b328-44c4-8897-bb20970025e1" name="更改" comment="" />
-      <created>1693622994944</created>
+      <changelist id="78f7b714-8ecd-4427-abc1-2e5202384fa8" name="变更" comment="" />
+      <created>1693802061481</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1693622994944</updated>
-      <workItem from="1693622995996" duration="109000" />
-      <workItem from="1693657571388" duration="913000" />
-<<<<<<< HEAD
-      <workItem from="1693708367370" duration="200000" />
-=======
-      <workItem from="1693792333921" duration="4920000" />
->>>>>>> 99e1be7420e32c5f6af9bdbe7ff2bdcd6b6c937f
+      <updated>1693802061481</updated>
+      <workItem from="1693802064787" duration="154000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
