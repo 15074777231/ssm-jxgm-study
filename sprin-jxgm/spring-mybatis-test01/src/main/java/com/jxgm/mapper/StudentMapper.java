@@ -1,8 +1,10 @@
 package com.jxgm.mapper;
 
 import com.jxgm.pojo.Students;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: chenheng
@@ -20,4 +22,8 @@ public interface StudentMapper {
     //插入学生数据
 
     int insertStudent(Students students);
+
+    List<Students> queryByNameAndHome(@Param("name")String name,@Param("home")String home);
+
+    List<Students> queryByMap(Map data);
 }

@@ -14,6 +14,7 @@
         <module>spring-jxgm-ioc03</module>
         <module>spring-jxgm-ioc</module>
         <module>spring-mybatis-test01</module>
+        <module>spring-mybatis-output</module>
     </modules>
 
     <dependencies>

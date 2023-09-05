@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 /**
  * @Author: chenheng
@@ -17,17 +18,18 @@ import java.io.InputStream;
  */
 public class Tests {
     @Test
-    public void test01() throws IOException {
-
-        InputStream resourceAsStream = Resources.getResourceAsStream("mybatis-config.xml");
+    public void test01(){
+        InputStream resourceAsStream = null;
+        try {
+            resourceAsStream = Resources.getResourceAsStream("mybatis-config.xml");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         SqlSessionFactory build = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = build.openSession();
         StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);
-        Students students = new Students();
-        students.setName("chen");
-        students.setHome("sdf");
-        int i = mapper.insertStudent(students);
-        System.out.println(i);
+        List<Students> students = mapper.queryByNameAndHome("chen", "sdf");
+        System.out.println(students);
         sqlSession.commit();
         sqlSession.close();
     }
