@@ -10,6 +10,8 @@ public class Students {
     private String home;
 
 
+    private String home;
+
     public void setId(Integer id) {
         this.id = id;
     }
