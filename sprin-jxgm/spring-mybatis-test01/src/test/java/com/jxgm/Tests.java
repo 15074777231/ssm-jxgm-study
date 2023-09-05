@@ -27,8 +27,12 @@ public class Tests {
         SqlSessionFactory build = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = build.openSession();
         StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);
-        Students students = mapper.queryById(1);
-        System.out.println(students);
+        Students students = new Students();
+        students.setName("chen");
+        students.setHome("sdf");
+        int i = mapper.insertStudent(students);
+        System.out.println(i);
+        sqlSession.commit();
         sqlSession.close();
     }
 }

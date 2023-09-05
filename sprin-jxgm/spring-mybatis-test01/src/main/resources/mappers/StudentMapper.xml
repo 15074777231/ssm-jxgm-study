@@ -9,4 +9,18 @@
     <select id="queryById" resultType="com.jxgm.pojo.Students">
         select id,name,home from students where id = #{id}
     </select>
+
+    <delete id="deleteById" >
+        delete
+        from students
+        where id = #{id};
+    </delete>
+
+    <select id="queryByName" resultType="com.jxgm.pojo.Students">
+        select id,name,home from students where name = #{name};
+    </select>
+
+    <insert id="insertStudent">
+        insert into students (name,home) values (#{name},#{home});
+    </insert>
 </mapper>

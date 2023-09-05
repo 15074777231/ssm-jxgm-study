@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c3994c-b328-44c4-8897-bb20970025e1" name="更改" comment="更改">
-      <change afterPath="$PROJECT_DIR$/spring-mybatis-test01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/main/java/com/jxgm/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/main/java/com/jxgm/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/main/java/com/jxgm/pojo/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/main/java/com/jxgm/pojo/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis-test01/src/test/java/com/jxgm/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis-test01/src/test/java/com/jxgm/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,7 @@
       <updated>1693622994944</updated>
       <workItem from="1693622995996" duration="109000" />
       <workItem from="1693657571388" duration="913000" />
-      <workItem from="1693792333921" duration="4920000" />
+      <workItem from="1693792333921" duration="8075000" />
     </task>
     <servers />
   </component>

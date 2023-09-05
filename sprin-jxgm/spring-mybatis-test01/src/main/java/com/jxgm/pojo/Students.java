@@ -7,6 +7,8 @@ package com.jxgm.pojo;
 public class Students {
     private Integer id;
     private String name;
+    private String home;
+
 
     public void setId(Integer id) {
         this.id = id;
@@ -20,8 +22,6 @@ public class Students {
                 ", home='" + home + '\'' +
                 '}';
     }
-
-    private String home;
 
     public int getId() {
         return id;
